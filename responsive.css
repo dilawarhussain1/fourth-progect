@@ -1,0 +1,387 @@
+@media  only screen and (max-width:900px) {
+    
+    
+    .hambergar{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar, .btn{
+        display: none;
+    }
+
+  .navbar{
+    height: 0;
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: blueviolet;
+    transition: 0.5s;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .navbar ul{
+    flex-direction: column;
+    margin: 20px auto 0 auto;
+    opacity: 1;
+  }
+  .navbar ul li{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .navbar ul li a{
+    color: #fff;
+  }
+  .navbar ul li a:hover{
+    background: #000;
+    border-radius: 10%;
+    color:yellow;
+
+  }
+
+  .navbar.show{
+    height: 250px;
+  }
+  .navbar.show ul{
+    opacity:1;
+  }
+   
+  .goal{
+    opacity:0;
+}
+}
+/* header end */
+
+@media only screen and (max-width: 900px) {
+
+  .goal-2{
+   opacity: 0;
+}
+  .section-1{
+   display: block;
+  }
+  .texting{
+    margin-top:150px;
+    margin-left:40px;
+}
+.texting h3{
+  font-size: 40px;
+  line-height: 50px;
+  width: 458px;
+  height: 120px;
+}
+.texting p{
+  width: 360px;
+  display: inline-block;
+}
+.texting span{
+  font-weight:400;
+}
+.texting button{
+  width: 300px;
+  height: 40px;
+}
+.section-1 .photo img{
+  margin-top: 100px;
+  margin-left: 10px;
+  width: 364px;
+  height: 364px;
+}
+
+.photo span img{
+  position: absolute;
+  top: 678px;
+  left: 70px;
+  width: 32px;
+  height: 32px;
+  opacity: 0;
+}
+
+/* nechy waly eik hen */
+.photo .small span img{
+  position: absolute;
+  left: 13px;
+  top: 820px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+}
+.photo .small #dot img{
+  position: absolute;
+  top: 110px;
+  left:10px;
+  width: 39px;
+  height: 58px;
+}
+.goal-2{
+    position: absolute;
+    left: -103px;
+    top: 624px;
+    width: 148px;
+    height: 148px;
+    background: rgba(0, 112, 240, 0.9);
+    opacity: 0.2;
+    border-radius:100px;
+}
+}
+/* section-1 end */
+
+/* section-2 start */
+@media only screen and (max-width:900px) {
+  .section-2 h3{
+    font-size:18px;
+    line-height: 30px;
+  }
+  .section-2 .parent{
+    display:flex;
+    flex-wrap: wrap;
+}
+.parent .box-6 img{
+  width: 65px;
+  height: 40px;
+}
+.parent .box-6 span img{
+  width: 130px;
+  height: 52px;
+  margin-top: 35px;
+}
+}
+/* section-2 end */
+
+/* section-3 start */
+@media only screen and (max-width:900px) {
+  .section-3{
+    padding-left: 40px;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgb(197, 215, 227);
+  }
+  .buttons button{
+    padding: 6px 16px;
+    width: 170px;
+    height: 24px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .white button{
+    width: 70px;
+    height: 24px;
+    font-size: 8px;
+  }
+   .section-3 .text-2 h4{
+    opacity: 0;
+    margin-top: 0;
+    height: 0;
+   }
+    .section-3 .text-2 p{
+    width: 400px;
+    height: 160px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+  }
+  .section-3 .boxes{
+    display:block;
+    margin-top: 30px;
+  }
+  .boxes .box-2{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .boxes .box-3{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+
+/* section-3 end */
+
+/* section-4 start */
+@media only screen and (max-width: 900px) {
+ 
+  .section-4 .main1{
+    display: block;
+  }
+  .main1 .colors span img{
+    position: absolute;
+    left:10px;
+    top: 2905px;
+    width: 350px;
+    height: 300px;
+}
+.main1 .colors img{
+  position: absolute;
+  top: 2935px;
+  left: 0px;
+  width: 300px;
+  height: 390px;
+}
+.main1 .text {
+  margin-left:0px;
+  margin-top:0px;
+  opacity: 0;
+  line-height: 0px;
+  width: 0;
+  height: 0;
+}
+
+.section-4 .main2{
+  display:block;
+  margin-top: 300px;
+}
+.circle .photo img{
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.circle .text{
+  margin-left: 20px;
+}
+.circle .text h5{
+  font-size: 18px;
+  line-height: 22px;
+}
+.circle .text p{
+  margin-top: 8px;
+  width:300px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.circle1 .photo img{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.circle1 .text{
+  margin-left: 20px;
+}
+.circle1 .text h5{
+  font-size: 18px;
+  line-height: 22px;
+}
+.circle1 .text p{
+  margin-top: 8px;
+  width:300px;
+  font-size: 14px;
+  line-height: 22px;
+}
+}
+/* section-4 end */
+/* section-5 start */
+
+@media only screen and (max-width:900px) {
+  .section-5{
+    background: #1f384f;
+    border-radius: 16px;
+    width: 343px;
+    height: 536px;
+    margin: 70px;
+}
+.section-5 h3{
+  font-size: 40px;
+  line-height: 50px;
+  width: 289px;
+  height: 144px;
+  padding-top:30px;
+}
+.section-5 button{
+  width: 170px;
+  height:48px;
+}
+.section-5 .three-box{
+  display:block;
+}
+.three-box .box{
+ margin-top: 20px;
+}
+}
+/* section-5 end */
+/* footer start */
+@media only screen and (max-width:900px) {
+  .footer{
+    width: 375px;
+    height: 1267px;
+}
+.footer .boxes{
+  display:block;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top: 10px;
+}
+.boxes .box1 p{
+  margin-top: 22px;
+  width: 316px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.box1 .photo{
+  display: flex;
+  flex-direction: row;
+}
+.box1 .photo img{
+  width: 160px;
+  height: 70px;
+  margin-top:16px;
+ 
+}
+.box1 .social img{
+  width: 120px;
+  height: 24px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.box1{
+  border-bottom: 1px solid #E1E8F0;
+  width: 328px;
+  padding-bottom: 20px;
+}
+
+.boxes .box2{
+  border-bottom: 1px solid #E1E8F0;
+  width: 328px;
+  padding-bottom: 20px;
+}
+
+.footer .boxes2{
+  display:block;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top: 10px;
+}
+
+.boxes2 .box2{
+  margin: 0px;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  line-height: 0;
+  padding: 0;
+}
+
+
+.footer .under{
+  display: flex;
+  flex-direction: column;
+  padding-bottom:40px;
+}
+.under h3{
+  margin-left: 10px;
+}
+.under h5{
+  margin-left: 10px;
+}
+.footer hr{
+  margin: 50px;
+  width: 320px;
+  height: 2px;
+  margin-left: 10px;
+  opacity: 0;
+}
+  
+}
